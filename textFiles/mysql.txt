@@ -1,0 +1,54 @@
+-------- MYSQL -----------
+1. Its an RDBMS database developed by MYSQL AB
+
+2. Its easy to use , secure ,
+
+3. Database is an colleection of tables , each tables contains specific information in row , coloumn 
+
+4. We implement table relation by foreign and primary key
+
+----------------- INSTALLATION -------------
+
+1. for kali linux install mariadb or MYSQL
+2. for ubuntu install mysql 
+3. for windows dowload official mysql
+4. for GUI use phpmyadmin,mysql workbench
+
+refer :"https://mariadb.com/kb/en/graphical-and-enhanced-clients/"
+CMD FOR INS: sudo apt install mariadb-client mariadb-server
+SECURE INS : sudo mysql_secure_installation
+AMD FOR START : systemctl service start mysql ,enable mysql
+CMD FOR LOGIN : mysql -u [username] -p [password]
+
+--------- DATATYPES IN MYSQL -----------
+
+1. INT,TINYINT,SMALLINT,MEDIUMINT,BIGINT ,11,4,5,9,20 digits
+
+2. FLOAT(m,d),DOUBLE(m,d),(16,4),(10,2).24 ,.53
+
+3. DATE,DATETIME,TIMESTAMP,TIME,YEAR
+
+4. VARCHAR,TINYTEXT,MEDIUMTEXT,TEXT,LONGTEXT,BINARY,VARBINARY ,255,255,16777215,65635,4GB,255,255
+
+5. BLOB --> TINYBLOB,BLOB,MEDIUMBLOB , 255,65535,16777215,
+
+----------- BASIC MYSQL QUERIES ----------------
+
+1. create database dbname; --> created new database
+
+2. show databases; --> list all db
+
+3. drop dbname; --> delete database
+
+4. USE dbname --> use database for further operations
+
+5.CREATE TABLE tableName(
+    coloumnName dataType not null auto_increment
+    primary key(coloumnName);
+)
+
+6. show tables; --> show all tables in the database
+
+7. DESCRIBEtableName --> shows all details about table
+
+8. ALTER TABLE tableName ADD coloumnName dataType AFTER coloumnName , use "," for multiple coloumn.
