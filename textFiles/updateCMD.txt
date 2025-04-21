@@ -1,0 +1,3 @@
+---------------- MYSQL UPDATE QUERY -----------------
+
+UPDATE TABLE NAME SET coloumnName = NEW VALUE WHERE ID = 1;

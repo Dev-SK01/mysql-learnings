@@ -1,0 +1,7 @@
+--------------- MYSQL INSERT COMMANDS ------------
+
+1. INSERT INTO TABLE NAME VALUES(coloumn values seperated by comma);
+
+2. INSERT INTO TABLE NAME (coloumn.coloumn) VALUES (value1,value2);
+
+3, INSERT INTO TABLE NAME VALUES (VALUES SET 1) ,(VALUE SET 2)

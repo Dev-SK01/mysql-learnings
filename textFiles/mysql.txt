@@ -19,6 +19,7 @@ CMD FOR INS: sudo apt install mariadb-client mariadb-server
 SECURE INS : sudo mysql_secure_installation
 AMD FOR START : systemctl service start mysql ,enable mysql
 CMD FOR LOGIN : mysql -u [username] -p [password]
+CMD FOR phpmyadmin : sudo systemctl restart apache2
 
 --------- DATATYPES IN MYSQL -----------
 
@@ -49,6 +50,10 @@ CMD FOR LOGIN : mysql -u [username] -p [password]
 
 6. show tables; --> show all tables in the database
 
-7. DESCRIBEtableName --> shows all details about table
+7. DESCRIBE tableName --> shows all details about table
 
 8. ALTER TABLE tableName ADD coloumnName dataType AFTER coloumnName , use "," for multiple coloumn.
+
+9. ALTER TABLE tableName MODIFY coloumnName dataType 
+
+10. ALTER TABLE tableName RENAME TO new tableName

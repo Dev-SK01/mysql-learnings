@@ -1,0 +1,5 @@
+------------------- MYSQL DELETE QUERY ---------------
+
+1. DELETE FROM TABLE NAME WHERE ID=1
+
+2. TURNCATE TABLE TABLE NAME;
