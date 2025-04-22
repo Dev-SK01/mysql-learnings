@@ -47,7 +47,7 @@ CMD FOR phpmyadmin : sudo systemctl restart apache2
     coloumnName dataType not null auto_increment
     primary key(coloumnName);
 )
-
+    
 6. show tables; --> show all tables in the database
 
 7. DESCRIBE tableName --> shows all details about table
