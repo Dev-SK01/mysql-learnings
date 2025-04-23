@@ -1,0 +1,37 @@
+--------------- SQL JOIN QUERIES ----------
+
+1. It will help to execute complex RDBMS queries.
+
+2. INNER JOIN , FULL OUTER JOIN , LEFT JOIN , RIGHT JOIN
+
+3. INNER JOIN --> same values on both tables
+
+4. LEFT JOIN --> left table values and both table common values
+
+5. RIGHT JOIN --> right table values and both table comma values
+
+6. FULL OUTER JOIN --> combination of all joins
+
+------------ INNER JOIN ----------------
+
+1. SELECT TABLE1.coloumn  , TABLE1.coloumn , TABLE2.coloumn , TABLE2.coloumn 
+
+   FROM TABLE1 INNER JOIN TABLE2 ON TABLE1.coloumn = TABLE2.coloumn
+
+----------- LEFT JOIN -----------------
+
+1. SELECT TABLE1.coloumn  , TABLE1.coloumn , TABLE2.coloumn , TABLE2.coloumn 
+
+   FROM TABLE1 LEFTS JOIN TABLE2 ON TABLE1.coloumn = TABLE2.coloumn
+
+----------- RIGHT JOIN --------------
+
+1. SELECT TABLE1.coloumn  , TABLE1.coloumn , TABLE2.coloumn , TABLE2.coloumn 
+
+   FROM TABLE1 RIGHT JOIN TABLE2 ON TABLE1.coloumn = TABLE2.coloumn
+
+---------------- FULL OUTER JOIN ---------------
+
+1. 1. SELECT TABLE1.coloumn  , TABLE1.coloumn , TABLE2.coloumn , TABLE2.coloumn 
+
+   FROM TABLE1 FULL OUTER JOIN TABLE2 ON TABLE1.coloumn = TABLE2.coloumn

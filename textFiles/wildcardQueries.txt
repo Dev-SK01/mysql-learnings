@@ -1,0 +1,9 @@
+---------------- WILD CARD QUERIES --------------- 
+
+1. we can get te data by given data present or not in the dataset
+
+2. WHERE COLOUMN NAME LIKE "%"
+
+3. % means any character.
+
+4. NOT LIKE
