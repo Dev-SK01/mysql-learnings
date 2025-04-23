@@ -32,6 +32,6 @@
 
 ---------------- FULL OUTER JOIN ---------------
 
-1. 1. SELECT TABLE1.coloumn  , TABLE1.coloumn , TABLE2.coloumn , TABLE2.coloumn 
+1. SELECT TABLE1.coloumn  , TABLE1.coloumn , TABLE2.coloumn , TABLE2.coloumn 
 
    FROM TABLE1 FULL OUTER JOIN TABLE2 ON TABLE1.coloumn = TABLE2.coloumn
