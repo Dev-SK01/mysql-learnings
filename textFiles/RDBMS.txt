@@ -1,0 +1,15 @@
+--------------- RELATIONAL DATABASE MANAGEMENT SYSTEM -----------
+
+1. RDBMS helps us to store and manipulate the data.
+
+2. we can do more with the database rather that file sysytem.
+
+3. there are multiple RDBMS products. SQL92 is the basic lang of SQL QUERIES , it helps us to talk to the db
+
+DDL --> DATA DEFINITION LANGUAGE --> define the data llike schema,table index QUERIES
+
+DML --> DATA MANIPULATION LANGUAGE --> used to perform operation in the data CRUD QUERIES.
+
+TCL --> TRANSACTION CONTROL LANGUAGE --> control over the data base TRANSACTION QUERIES
+
+DCL --> DATA CONTROL LANGUAGE --> control over database users REVOKE GRANT
